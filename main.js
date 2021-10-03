@@ -2,6 +2,7 @@
 
 // brings in the assert module for unit testing
 const assert = require('assert');
+const { log } = require('console');
 // brings in the readline module to access the command line
 const readline = require('readline');
 // use the readline module to print out to the command line
@@ -10,7 +11,10 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
+const word = function getWordFromList () {
+document.querySelectorAll("select.selectValues")
+console.log(getWordFromList);
+}
 const pigLatin = (word) => {
 word = word.trim().toLowerCase()
 let wordArray = word.split('')
